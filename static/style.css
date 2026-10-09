@@ -1,0 +1,32 @@
+/*this changes the entire website's background color to yellow*/
+body {
+    background-color: goldenrod;
+}
+div p {
+    color: darkred;
+    font-weight: bold;
+}
+/*the main header is only centered, while the second level headers also have a font size change*/
+h1{
+    text-align: center;
+}
+h2 {
+    font-size:2em;
+    text-align: center;
+}
+table {
+    border-style: solid;
+    border-color: darkred;
+}
+/*this class attribute changes the font thickness and color of the elements that it is attached to*/
+p#specific{
+    font-weight:bold;
+    color: #555454;
+}
+.darkgray {
+    color: darkslategrey;
+}
+img.logo{
+    width: 300px;
+    height: 75px;
+}
